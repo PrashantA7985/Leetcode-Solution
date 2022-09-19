@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int subarraySum(vector<int>& v, int k) {
+        vector<int>a(v.size());
+        a[0]=v[0];
+        for(int i=1;i<v.size();i++){
+           a[i]=a[i-1]+v[i];
+        }
+       
+        int ans=0;
+        map<int,int>m;
+      
+        for(int i=0;i<v.size();i++){
+            
+            if(a[i]==k)ans++;
+         if(m[a[i]-k]!=0 )ans+=m[a[i]-k];
+        m[a[i]]++;
+                     
+        }
+        return ans;
+    }
+};
