@@ -1,34 +1,51 @@
 class Solution {
 public:
-    string pushDominoes(string dominoes) {
-        #define SET(ch, arr) \
-                    if (dominoes[i] == ch) { count = 1; prev = ch; } \
-                    else if (dominoes[i] != '.') prev = dominoes[i]; \
-                    if (prev == ch && dominoes[i] == '.') arr[i] = count++;
-        
-        string res = "";
-        char prev;
-        int n = dominoes.size(), count = 1;
-        
-        vector<int> left(n, 0), right(n, 0);
-        for (int i = 0; i < n; i++) {
-            SET('R', right);
+    string pushDominoes(string s) {
+      string t,r,ans;
+        t.push_back('L');
+        for(int i=0;i<s.size();i++)t.push_back(s[i]);
+        t.push_back('R');
+        vector<pair<char,int>>p;
+        for(int i=0;i<t.size();i++){
+            if(t[i]!='.')p.push_back({t[i],i});
         }
-        
-        prev = '.';
-        for (int i = n-1; i >= 0; i--) {
-            SET('L', left);
+        for(auto x:p)cout<<x.first<<" "<<x.second<<" ";
+       
+        for(int i=0;i<p.size()-1;i++){
+            if(p[i].first=='L' && p[i+1].first=='L'){
+                int x=(p[i+1].second)-(p[i].second)-1;
+                r.append(x,'L');
+                r.push_back('L');
+            }
+            else  if(p[i].first=='R' && p[i+1].first=='R'){
+                int x=(p[i+1].second)-(p[i].second)-1;
+                r.append(x,'R');
+                r.push_back('R');
+            }
+            else  if(p[i].first=='L' && p[i+1].first=='R'){
+                  int x=(p[i+1].second)-(p[i].second)-1;
+                r.append(x,'.');
+                r.push_back('R');
+            }
+            else{
+                int x=(p[i+1].second)-(p[i].second)-1;
+                if(x%2==0){
+                    r.append(x/2,'R');
+                    r.append(x/2,'L');
+                    r.push_back('L');
+                }
+                else{
+                       r.append(x/2,'R');
+                    r.push_back('.');
+                    r.append(x/2,'L');
+                    r.push_back('L');
+                }
+            }
         }
-        
-        for (int i = 0; i < n; i++) {
-            if (!left[i] && !right[i]) res += dominoes[i];
-            else if (!left[i]) res += 'R';
-            else if (!right[i]) res += 'L';
-            else if (left[i] == right[i]) res += '.';
-            else if (left[i] < right[i]) res += 'L';
-            else res += 'R';
+        for(int i=0;i<r.size()-1;i++){
+            ans.push_back(r[i]);
         }
-        
-        return res;
+        return ans;
+       
     }
 };
