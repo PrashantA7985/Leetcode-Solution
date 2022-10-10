@@ -6,7 +6,7 @@ public:
         for(int i=0;i<v.size();i++){
             if(v[i]==1)ans++;
             else ans=0;
-            x=max(ans,x);
+        if(x<ans)x=ans;
         }
         return x;
     }
