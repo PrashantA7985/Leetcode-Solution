@@ -7,9 +7,16 @@ class Solution {
   public:
     int noOfOpenDoors(long long N) {
         // code here
-        long long i=sqrt(N);
+       long long low=1;
+       long long high=N;
+       while(low<=high){
+           double mid=(low+high)/2;
+           if(mid*mid==N)return mid;
+           if(mid*mid<N)low=mid+1;
+           else high=mid-1;
+       }
         
-        return i;
+        return --low;
     }
 };
 
