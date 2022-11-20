@@ -105,7 +105,7 @@ class Solution{
     public:
     //Function to check whether a binary tree is balanced or not.
     int height(Node *root){
-        if(root==NULL)return 1;
+        if(root==NULL)return 0;
         int lh=height(root->left);
         if(lh==-1)return -1;
          int rh=height(root->right);
