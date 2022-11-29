@@ -12,7 +12,7 @@ class Solution{
        int a[26]={0};
         while(i<s.size()){
             a[s[i]-'a']++;
-            if(a[s[i]-'a']>1){
+           
                
                 while(a[s[i]-'a']>1){
                     if(a[s[j]-'a']!=0){
@@ -22,11 +22,11 @@ class Solution{
                     j++;
                 }
                 
-            }
+            
             ans=max(ans,i-j+1);
             i++;
         }
-        // ans=max(ans,i-j);
+
        return ans; 
     }
 };
