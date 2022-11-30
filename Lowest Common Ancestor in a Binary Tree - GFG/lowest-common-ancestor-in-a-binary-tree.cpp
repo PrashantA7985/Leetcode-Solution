@@ -36,20 +36,20 @@ struct Node
 
 class Solution
 {    
-    vector<int>ans;
-vector<int> solve(Node* root,vector<int>&arr, int &x){
+//     vector<int>ans;
+// vector<int> solve(Node* root,vector<int>&arr, int &x){
    
-     if(root==NULL)return ans;
-     arr.push_back(root->data);
-     if(root->data==x)ans=arr;
-     solve(root->left,arr,x);
-      solve(root->right,arr,x);
+//      if(root==NULL)return ans;
+//      arr.push_back(root->data);
+//      if(root->data==x)ans=arr;
+//      solve(root->left,arr,x);
+//       solve(root->right,arr,x);
      
-     arr.pop_back();
-     return ans;
+//      arr.pop_back();
+//      return ans;
      
      
- }
+//  }
  Node * sol(Node* root, int &x){
         if(root==NULL)return NULL;
          queue<Node*>q;
@@ -64,7 +64,34 @@ vector<int> solve(Node* root,vector<int>&arr, int &x){
       
         
     }
-    
+    bool getPath(Node * root, vector < int > & arr, int x) {
+  // if root is NULL
+  // there is no path
+  if (!root)
+    return false;
+
+  // push the node's value in 'arr'
+  arr.push_back(root -> data);
+
+  // if it is the required node
+  // return true
+  if (root -> data == x)
+    return true;
+
+  // else check whether the required node lies
+  // in the left subtree or right subtree of
+  // the current node
+  if (getPath(root -> left, arr, x) ||
+    getPath(root -> right, arr, x))
+    return true;
+
+  // required node does not lie either in the
+  // left or right subtree of the current node
+  // Thus, remove current node's value from
+  // 'arr'and then return false   
+  arr.pop_back();
+  return false;
+}
     
     
    
@@ -76,8 +103,9 @@ vector<int> solve(Node* root,vector<int>&arr, int &x){
        Node *res =root;
        
    vector<int>a,b;
-  a= solve(root,a,n1);
-   b=  solve(root,b,n2);
+   bool t,q;
+  t=getPath(root,a,n1);
+   q=getPath(root,b,n2);
   int i=0;
   int x=0;
   while(i<a.size() && i<b.size()){
