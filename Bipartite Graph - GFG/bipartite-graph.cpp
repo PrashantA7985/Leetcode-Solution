@@ -4,42 +4,43 @@ using namespace std;
 
 // } Driver Code Ends
 class Solution {
-    // private:
-    // bool bfs(int start,int n,int col[], vector<int>adj[]){
-    //     col[start]=0;
-    //     queue<int>q;
-    //     q.push(start);
-    //     while(!q.empty()){
-    //         int node=q.front();
-    //         q.pop();
-    //         for(auto it:adj[node]){
+    private:
+    bool bfs(int start,int n,int color[], vector<int>adj[]){
+        queue<int>q;
+        q.push(start);
+        color[start]=0;
+       
+        while(!q.empty()){
+            int node=q.front();
+            q.pop();
+            for(auto it:adj[node]){
                
-    //          if(col[it]==col[node])return false;
-    //         else  if(col[it]==-1){
-    //                 col[it]=!col[node];
-    //                 q.push(it);
-    //             }
-    //         }
-    //     }
-    //     return true;
-    // }
-    bool dfs(int node, int col, int color[], vector<int> adj[]) {
-        color[node] = col; 
-        
-        // traverse adjacent nodes
-        for(auto it : adj[node]) {
-            // if uncoloured
-            if(color[it] == -1) {
-                if(dfs(it, !col, color, adj) == false) return false; 
-            }
-            // if previously coloured and have the same colour
-            else if(color[it] == col) {
-                return false; 
+             if(color[it]==color[node])return false;
+              else  if(color[it]==-1){
+                    color[it]=!color[node];
+                    q.push(it);
+                }
             }
         }
-        
-        return true; 
+        return true;
     }
+    // bool dfs(int node, int col, int color[], vector<int> adj[]) {
+    //     color[node] = col; 
+        
+    //     // traverse adjacent nodes
+    //     for(auto it : adj[node]) {
+    //         // if uncoloured
+    //         if(color[it] == -1) {
+    //             if(dfs(it, !col, color, adj) == false) return false; 
+    //         }
+    //         // if previously coloured and have the same colour
+    //         else if(color[it] == col) {
+    //             return false; 
+    //         }
+    //     }
+        
+    //     return true; 
+    // }
 public:
 	bool isBipartite(int V, vector<int>adj[]){
 	      int color[V];
@@ -48,7 +49,7 @@ public:
 	    // for connected components
 	    for(int i = 0;i<V;i++) {
 	        if(color[i] == -1) {
-	            if(dfs(i, 0, color, adj) == false) 
+	            if(bfs(i, 0, color, adj) == false) 
 	                return false; 
 	        }
 	    }
