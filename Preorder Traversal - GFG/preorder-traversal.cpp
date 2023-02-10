@@ -127,19 +127,21 @@ struct Node
     }
 };
 */
-vector<int> solve(Node * root , vector<int> &v){
-    if (root==NULL)return v;
-      v.push_back(root->data);
-      solve(root->left,v);
-      solve(root->right,v);
-      
-       return v;
-}
+
 //Function to return a list containing the preorder traversal of the tree.
 vector <int> preorder(Node* root)
 {
   // Your code here
   vector<int>v;
- v=solve(root,v);
+    stack<Node*>s;
+    if(root==NULL)return v;
+    s.push(root);
+    while(!s.empty()){
+        Node *temp=s.top();
+        v.push_back(temp->data);
+        s.pop();
+        if(temp->right)s.push(temp->right);
+        if(temp->left)s.push(temp->left);
+    }
   return v;
 }
