@@ -9,23 +9,7 @@ using namespace std;
 //User function Template for C++
 
 class Solution{
-     int df(int row,int col,int n,int m, vector<vector<int>>&vi,vector<vector<int>>&v){
-        vi[row][col]=1;
-          int x=v[row][col];
-           int a[]={-1,0,1,0};
-           int b[]={0,1,0,-1};
-           for(int i=0;i<4;i++){
-               int nrow=row+a[i];
-               int ncol=col+b[i];
-               if(nrow>=0 && nrow<n && ncol>=0 && 
-             ncol<m && vi[nrow][ncol]==0 && x<=v[nrow][ncol]){
-                   df(nrow,ncol,n,m,vi,v);
-                   
-                   
-               }
-           }
-        
-    }
+   
     int dfs(int row,int col,int n,int m, vector<vector<int>>&vis,vector<vector<int>>&v){
         vis[row][col]=1;
           int x=v[row][col];
@@ -65,13 +49,13 @@ public:
         for(int i=0;i<n;i++){
           
                 if(vi[i][m-1]==0){
-                    df(i,m-1,n,m,vi,v);
+                    dfs(i,m-1,n,m,vi,v);
             }
         }
           for(int i=0;i<m;i++){
           
                 if(vi[n-1][i]==0){
-                    df(n-1,i,n,m,vi,v);
+                    dfs(n-1,i,n,m,vi,v);
             }
         }
         int count=0;
