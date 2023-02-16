@@ -5,51 +5,32 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
     private:
-    bool bfs(int start,int n,int color[], vector<int>adj[]){
-        queue<int>q;
-        q.push(start);
-        color[start]=0;
+    bool dfs(int start,int color[], vector<int>adj[] ,int col){
+        
+        color[start]=col;
        
-        while(!q.empty()){
-            int node=q.front();
-            q.pop();
-            for(auto it:adj[node]){
-               
-             if(color[it]==color[node])return false;
-              else  if(color[it]==-1){
-                    color[it]=!color[node];
-                    q.push(it);
+      
+            for(auto it:adj[start]){
+               if(color[it]==col)return false;
+               else  if(color[it]==-1){
+                if(dfs(it,color,adj,!col)==false)
+                return false;
                 }
+                
             }
-        }
+        
         return true;
     }
-    // bool dfs(int node, int col, int color[], vector<int> adj[]) {
-    //     color[node] = col; 
-        
-    //     // traverse adjacent nodes
-    //     for(auto it : adj[node]) {
-    //         // if uncoloured
-    //         if(color[it] == -1) {
-    //             if(dfs(it, !col, color, adj) == false) return false; 
-    //         }
-    //         // if previously coloured and have the same colour
-    //         else if(color[it] == col) {
-    //             return false; 
-    //         }
-    //     }
-        
-    //     return true; 
-    // }
+    
 public:
 	bool isBipartite(int V, vector<int>adj[]){
 	      int color[V];
 	    for(int i = 0;i<V;i++) color[i] = -1; 
 	    
-	    // for connected components
+	    
 	    for(int i = 0;i<V;i++) {
 	        if(color[i] == -1) {
-	            if(bfs(i, 0, color, adj) == false) 
+	            if(dfs(i, color, adj,int(0)) == false) 
 	                return false; 
 	        }
 	    }
