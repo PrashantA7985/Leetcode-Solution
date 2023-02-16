@@ -10,21 +10,17 @@ class Solution{
     { 
         // Complete the function
         map<int,int>m;
-        vector<int>v(n);
-        v[0]=a[0];
-        for(int i=1;i<n;i++){
-           v[i]=a[i]+v[i-1]; 
-        }
-        // for(int i=0;i<n;i++)cout<<v[i]<<" ";
-        int ans=0;
-        // cout<<endl;
+        int sum=0; 
+       int ans=0;
+        
         for(int i=0;i<n;i++){
-            if(v[i]==k)ans=max(ans,i+1);
-            if(m.find(v[i]-k)!=m.end()){
-                ans=max(ans,i-m[v[i]-k]);
+            sum+=a[i];
+            if(sum==k)ans=i+1;   // sabse bda yhi hoga kyuki starting se hoga 
+           if(m.find(sum-k)!=m.end()){
+                ans=max(ans,i-m[sum-k]);
             }
-            if(m.find(v[i])==m.end())
-            m[v[i]]=i;
+            if(m.find(sum)==m.end())
+              m[sum]=i;
         }
         return ans;
     } 
