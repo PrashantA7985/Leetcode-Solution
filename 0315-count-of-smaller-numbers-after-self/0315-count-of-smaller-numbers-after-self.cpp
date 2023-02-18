@@ -19,9 +19,8 @@ public:
             vector<int>ans;
          ordered_set s;
            int n=nums.size();
-        s.insert(nums[n-1]);
-        ans.push_back(0);
-        for(int i=n-2;i>=0;i--){
+      
+        for(int i=n-1;i>=0;i--){
             s.insert(nums[i]);
            int x=s.order_of_key(nums[i]);
             ans.push_back(x);
