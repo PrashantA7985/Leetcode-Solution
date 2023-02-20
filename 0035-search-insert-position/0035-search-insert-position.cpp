@@ -1,16 +1,15 @@
 class Solution {
 public:
-    int searchInsert(vector<int>& arr, int k) {
-        int low=0;
-        int high=arr.size()-1;
-        while(low<=high){
-            int mid=(low+high)/2;
-            if(arr[mid]==k){
-                return mid;
-            }
-            else if(arr[mid]>k)high=mid-1;
-            else low=mid+1;
+    int searchInsert(vector<int>& v, int k) {
+       int n=v.size();
+        int l=0;
+        int h=n-1;
+        while(l<=h){
+            int mid=(l+h)/2;
+            if(v[mid]==k)return mid;
+            if(v[mid]>k)h=mid-1;
+            else l=mid+1;
         }
-        return low;
+        return l;
     }
 };
