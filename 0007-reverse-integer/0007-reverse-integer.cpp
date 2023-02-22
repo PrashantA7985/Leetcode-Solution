@@ -9,18 +9,15 @@ public:
            flag=1;
             x=abs(x);
         }
-        string s=to_string(x);
-     string res;
-        for(int i=s.size()-1;i>=0;i--)res.push_back(s[i]);
-       long long data=stoll(res);
-        if(data<=num && flag==1){
-            int temp=stoi(res);
-          
-            return (-1)*temp;
-        }
      
-        else  if(data<=num && flag==0)return stoi(res);
-           
-        return 0;
+     long long int ans=0;
+        while(x>0){
+            ans=ans*10+x%10;
+            x=x/10;
+        }
+        if(ans>num)return 0;
+        if(flag==1)return -ans;
+        return ans;
+        
     }
 };
