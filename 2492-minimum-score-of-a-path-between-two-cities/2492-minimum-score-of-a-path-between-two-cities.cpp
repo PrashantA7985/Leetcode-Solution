@@ -1,21 +1,5 @@
 class Solution {
-    // private:
-    // void bfs(int i,int j,int vis[],vector<pair<int,int>>& list[],int m){
-    //     vis[i]=1;
-    //    m=min(list[i][j].second,m);
-    //     for(int i=0;i<)
-    //     while(!q.empty()){
-    //         int temp=q.front();
-    //         q.pop();
-    //         for(int x=0;x<list[temp].size();x++){
-    //             if(vis[x]==0){
-    //                 vis[x]=1;
-    //                 q.push(list[x].first)
-    //                     m=min(m,list[x].second);
-    //             }
-    //         }
-    //     }
-    // }
+  
 public:
     int minScore(int n, vector<vector<int>>& v) {
       
@@ -32,12 +16,12 @@ public:
         //         cout<<i<<" "<<list[i][j].first<<" "<<list[i][j].second<<endl;
         //     }
         // }
-        for(int i=0;i<n+1;i++){
-            sort(list[i].begin(),list[i].end());
-        }
+        // for(int i=0;i<n+1;i++){
+        //     sort(list[i].begin(),list[i].end());
+        // }
         vector<int>vis(n+1,0);
         int m=INT_MAX;
-        // bfs(1,0,vis,list,min);
+      
         
         
         
