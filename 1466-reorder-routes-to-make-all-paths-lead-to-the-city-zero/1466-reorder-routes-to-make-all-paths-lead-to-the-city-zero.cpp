@@ -6,16 +6,16 @@ public:
          vector<vector<int>>adj(n+1);
         set<pair<int,int>>s;
         
-        // for(int i=0;i<n;i++){
-        //     adj[v[i][0]].push_back(v[i][1]);
-        //         adj[v[i][1]].push_back(v[i][0]);
-        //         s.insert({v[i][0],v[i][1]});
-        // }
-         for (auto c : v){
-            adj[c[0]].push_back(c[1]);
-            adj[c[1]].push_back(c[0]);
-             s.insert({c[0],c[1]});
+        for(int i=0;i<v.size();i++){
+            adj[v[i][0]].push_back(v[i][1]);
+                adj[v[i][1]].push_back(v[i][0]);
+                s.insert({v[i][0],v[i][1]});
         }
+        //  for (auto c : v){
+        //     adj[c[0]].push_back(c[1]);
+        //     adj[c[1]].push_back(c[0]);
+        //      s.insert({c[0],c[1]});
+        // }
         queue<int>q;
         q.push(0);
         int ans=0;
