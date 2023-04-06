@@ -20,16 +20,20 @@ class Solution {
         // Code here
 
      vector<int>dp(n+1);
-     dp[0]=0;
+     int first=0;
+     int sec=0;
+     int curr=0;
      for(int i=1;i<n;i++){
-         int x=dp[i-1]+abs(v[i]-v[i-1]);
+         int x=first+abs(v[i]-v[i-1]);
          int y=INT_MAX;
          if(i>1){
-             y=dp[i-2]+abs(v[i]-v[i-2]);
+             y=sec+abs(v[i]-v[i-2]);
          }
-         dp[i]=min(x,y);
+        curr =min(x,y);
+         sec=first;
+         first=curr;
      }
-     return dp[n-1];
+     return first;
     }
 };
 
