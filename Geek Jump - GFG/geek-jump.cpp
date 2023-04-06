@@ -19,9 +19,17 @@ class Solution {
     int minimumEnergy(vector<int>& v, int n) {
         // Code here
 
-        vector<int>dp(n,-1);
-        int x=solve(v,n-1,dp);
-        return x;
+     vector<int>dp(n+1);
+     dp[0]=0;
+     for(int i=1;i<n;i++){
+         int x=dp[i-1]+abs(v[i]-v[i-1]);
+         int y=INT_MAX;
+         if(i>1){
+             y=dp[i-2]+abs(v[i]-v[i-2]);
+         }
+         dp[i]=min(x,y);
+     }
+     return dp[n-1];
     }
 };
 
