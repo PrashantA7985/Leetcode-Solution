@@ -7,18 +7,18 @@ class Solution
 
 
 {    int m=1e9+7;
-    int solve(int n, vector<long long>&v){
-        if(n<=1)return 1;
-        if(v[n]!=-1)return v[n];
-        return v[n]=(solve(n-1,v)%m+solve(n-2,v)%m)%m;
-    }
+   
     public:
     //Function to count number of ways to reach the nth stair.
     int countWays(int n)
     {
-        vector<long long>v(n+1,-1);
-     long long x=solve(n,v);
-     return x;
+       vector<int>v(n+1);
+       v[0]=1;
+       v[1]=1;
+       for(int i=2;i<=n;i++){
+           v[i]=(v[i-1]%m+v[i-2]%m)%m;
+       }
+       return v[n];
       
     }
 };
