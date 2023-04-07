@@ -32,7 +32,7 @@ public:
 	           int nonpick=v[i-1];
 	           v[i]=max(pick,nonpick);
 	       }
-	   return max(v[n-1],v[n-2]);
+return v[n-1];
 	}
 };
 
