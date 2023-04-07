@@ -23,9 +23,16 @@ public:
 
 	int findMaxSum(int *arr, int n) {
 	    // code here
-	    vector<int>v(n,-1);
-	   int ans=solve(arr,n-1,v);
-	   return ans;
+	    vector<int>v(n);
+	    v[0]=arr[0];
+	       for(int i=1;i<n;i++){
+	           int pick=arr[i];
+	            if(i-2>=0)
+	            pick=arr[i]+v[i-2];
+	           int nonpick=v[i-1];
+	           v[i]=max(pick,nonpick);
+	       }
+	   return max(v[n-1],v[n-2]);
 	}
 };
 
