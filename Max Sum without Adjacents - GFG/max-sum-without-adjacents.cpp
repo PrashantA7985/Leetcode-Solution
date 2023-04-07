@@ -12,11 +12,11 @@ class Solution{
         if(n==0)return arr[n];
         if(n<0)return 0;
  
-    long long int pick=0;
+     int pick=0;
        
            pick=arr[n]+solve(arr,n-2,v); 
       
-  long long int notpick=0+solve(arr,n-1,v);
+int notpick=0+solve(arr,n-1,v);
         return v[n]=max(pick,notpick);
     }
 public:	
