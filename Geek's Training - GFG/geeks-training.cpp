@@ -12,16 +12,13 @@ class Solution {
                     }
                     return maxi;
                 } 
-                 if(last!=3 && dp[n][last]!=-1)return dp[n][last];
+                 if(dp[n][last]!=-1)return dp[n][last];
                   int maxi=0;
-                  int ind;
+             
                   for(int i=0;i<3;i++){
                       if(i!=last){
                           int temp=v[n][i]+solve(v,n-1,i,dp);
-                          if(maxi<temp){
-                          maxi=temp;
-                          ind=i;
-                          }
+                           maxi=max(maxi,temp);
                       }
                   }
                   return dp[n][last]=maxi;
@@ -29,7 +26,7 @@ class Solution {
   public:
     int maximumPoints(vector<vector<int>>& v, int n) {
         // Code here
-        vector<vector<int>>dp(n,vector<int>(3,-1));
+        vector<vector<int>>dp(n,vector<int>(4,-1));
          int ans=solve(v,n-1,3,dp);
          return ans;
     }
