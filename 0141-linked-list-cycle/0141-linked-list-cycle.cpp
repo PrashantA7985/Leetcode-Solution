@@ -8,9 +8,9 @@
  */
 class Solution {
 public:
-    bool hasCycle(ListNode *head) {
+    bool hasCycle(ListNode *temp) {
           map<ListNode*,int>m;
-          ListNode* temp=head;
+        
           while(temp!=NULL){
               if(m[temp]!=0)return true;
               m[temp]++;
