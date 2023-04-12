@@ -52,7 +52,7 @@ class Solution{
               slow=p;
          }
        
-         while(head!=NULL && prev!=NULL){
+         while( prev!=NULL){
              if(head->data!=prev->data)return false;
              head=head->next;
              prev=prev->next;
