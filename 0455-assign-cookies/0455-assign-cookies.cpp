@@ -1,19 +1,15 @@
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
-        priority_queue<int>p,q;
-        for(int i=0;i<g.size();i++)p.push(g[i]);
-        for(int i=0;i<s.size();i++)q.push(s[i]);
-        int ans=0;
-        while(!q.empty() && !p.empty()){
-                  while(!q.empty() && !p.empty()&& q.top()<p.top())p.pop();
-                 if(!p.empty() && q.top()>=p.top()){
-                     q.pop();
-                     p.pop();
-                     ans++;
-                 }
+        sort(g.begin(),g.end());
+                sort(s.begin(),s.end());
+        int i=0,j=0;
+        while(i<g.size() && j<s.size()){
+            if(s[j]>=g[i])i++;
+            j++;
         }
-        return ans;
+        return i;
+        
         
     }
 };
