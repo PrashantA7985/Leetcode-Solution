@@ -8,17 +8,18 @@ using namespace std;
 //User function template for C++
 class Solution{
 public:	
-	bool solve(string &s,int i,int j){
-	    if(i>=j)return true;
-	    if(s[i]!=s[j])return false;
-	   return solve(s,i+1,j-1);
-	   
-	}
+	
 	
 	int isPalindrome(string s)
-	{     int n=s.size();
-	     if(solve(s,0,n-1))return 1;
-	     return 0;
+	{
+	    int i=0;
+	    int j=s.size()-1;
+	    while(i<j){
+	        if(s[i]!=s[j])return 0;
+	        i++;
+	        j--;
+	    }
+	    return 1;
 	}
 
 };
