@@ -15,17 +15,19 @@ class Solution
     vector<long long> printFibb(int n) 
     {
         //code here
-         vector<long long>v;
-
-        long long x=0;
-        long long y=1;
-        long long ans;
-        v.push_back(1);
-        for(int i=2;i<=n;i++){
-            ans=x+y;
-            x=y;
-            y=ans;
-            v.push_back(ans);
+        // if(n<=2)return 1;
+      long long  int x=1;
+     long long   int y=1;
+        vector<long long>v;
+        for(int i=1;i<=n;i++){
+            if(i<=2)v.push_back(1);
+            else{
+          long long  int temp=y;
+            y+=x;
+            x=temp;
+            v.push_back(y);
+            }
+            
         }
         return v;
     }
