@@ -3,24 +3,39 @@
 using namespace std;
 
 // } Driver Code Ends
-vector<int> find(int arr[], int n , int x )
+class Solution
 {
-    // code here
-    int z= lower_bound(arr,arr+n,x)-arr;
-        int y= upper_bound(arr,arr+n,x)-arr;
-        y--;
-        vector<int>ans;
-        if(z>y){
-            ans.push_back(-1);
-            ans.push_back(-1);
+    public:
+    vector<int> find(int arr[], int n , int x )
+    {
+        // code here
+        vector<int>v;
+        int i=0;
+        int j=n-1;
+        int a=-1,b=-1;
+        while(i<=j){
+            int mid=(i+j)/2;
+            if(arr[mid]==x){
+                a=mid;
+            }
+            if(arr[mid]>=x)j=mid-1;
+            
+            else i=mid+1;
         }
-        else{
-        ans.push_back(z);
-         ans.push_back(y);
+        v.push_back(a);
+        i=0;
+        j=n-1;
+        while(i<=j){
+            int mid=(i+j)/2;
+            if(arr[mid]==x)b=mid;
+            if(arr[mid]<=x)i=mid+1;
+            else j=mid-1;
         }
-         return ans;
-    
-}
+        v.push_back(b);
+        return v;
+        
+    }
+};
 
 //{ Driver Code Starts.
 
@@ -36,7 +51,8 @@ int main()
         for(i=0;i<n;i++)
         cin>>arr[i];
         vector<int> ans;
-        ans=find(arr,n,x);
+        Solution ob;
+        ans=ob.find(arr,n,x);
         cout<<ans[0]<<" "<<ans[1]<<endl;
     }
     return 0;
