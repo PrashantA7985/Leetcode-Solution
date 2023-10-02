@@ -14,14 +14,14 @@ class Solution{
   public:
     int missingNumber(vector<int>& a, int n) {
         // Your code goes here
-        vector<int>v(n+1);
+       int x=0;
         for(int i=0;i<n-1;i++){
-           v[a[i]]++;
+          x^=a[i];
         }
         for(int i=1;i<=n;i++){
-           if(v[i]==0)return i;
+           x^=i;
         }
-        return 0;
+        return x;
     }
 };
 
