@@ -94,31 +94,30 @@ Node* buildTree(string str)
 //Function to return a list containing the bottom view of the given tree.
 
 class Solution {
-          map<int,int> solve(Node* root,map<int,int>&m){
-    if(root==NULL)return m;
-    queue<pair<Node*,int>>q;
-    q.push({root,0});
-    while(!q.empty()){
-        Node* temp=q.front().first;
-        int t=q.front().second;
-        q.pop();
-        m[t]=temp->data;
-        if(temp->left!=NULL){
-            q.push({temp->left,t-1});
-        }
-        if(temp->right!=NULL){
-            q.push({temp->right,t+1});
-        }
-    }
-    return m;
-}
   public:
     vector <int> bottomView(Node *root) {
-    vector<int>v;
-      map<int,int>m;
-      m=solve(root,m);
-      for(auto it:m)v.push_back(it.second);
-      return v;
+        // Your Code Here
+          vector<int>ans;
+        if(root==NULL)return ans;
+        map<int,int>m;
+        queue<pair<Node *,int>>q;
+        q.push({root,0});
+        while(true){
+            int size=q.size();
+            if(size==0)break;
+            while(size--){
+                Node * temp=q.front().first;
+                int ind=q.front().second;
+                q.pop();
+               m[ind]=temp->data;
+                if(temp->left)q.push({temp->left,ind-1});
+                if(temp->right)q.push({temp->right,ind+1});
+            }
+        }
+        for(auto it:m){
+            ans.push_back(it.second);
+        }
+        return ans;
     }
 };
 
