@@ -98,84 +98,98 @@ struct Node
 class Solution
 {
 private:
-     void solve(Node*root,map<Node*,Node*> &m){
-         if(root==NULL)return ;
-         queue<Node*>q;
-         q.push(root);
-         while(!q.empty()){
-             Node *temp=q.front();
-             q.pop();
-             if(temp->left){
-                 m[temp->left]=temp;
-                 q.push(temp->left);
-             }
-              if(temp->right){
-                 m[temp->right]=temp;
-                 q.push(temp->right);
-             }
-         }
-         return ;
-     }
-     bool  fun(Node* root, int target,Node * &start){
-         if(root==NULL)return false;
-         if(root->data==target){
-             start=root;
-             return true;
-         }
-         if(fun(root->left,target,start)  || fun(root->right,target,start))return true;
-         return false;
-     }
-     queue<Node*> chamak( Node * start,queue<Node*>q, int k, map<Node*,Node*>&m){
-         if(start==NULL)return q;
-          map<Node*,int>vis;
-          
-          q.push(start);
-          vis[start]=1;
-          int x=0;
-          while(!q.empty()){
-              if(x==k)return q;
-              x++;
-              int size=q.size();
-              while(size--){
-                 Node* temp=q.front();
-                 q.pop();
-                 if(temp->left && !vis[temp->left]){
-                     vis[temp->left]=1;
-                     q.push(temp->left);
-                 }
-                  if(temp->right && !vis[temp->right]){
-                     vis[temp->right]=1;
-                     q.push(temp->right);
-                 }
-                 if(m[temp] && !vis[m[temp]]){
-                     vis[m[temp]]=1;
-                     q.push(m[temp]);
-                 }
-              }
-          }
-          
-     }
-
+     
 public:
+void parent(Node * root, map<Node *,Node*>&m){
+    if(root==NULL)return;
+    queue<Node * >q;
+    q.push(root);
+    while(!q.empty()){
+        int size=q.size();
+      
+        while(size--){
+            Node * temp=q.front();
+            q.pop();
+            if(temp->left){
+                m[temp->left]=temp;
+                q.push(temp->left);
+            
+            }
+             if(temp->right){
+                m[temp->right]=temp;
+                q.push(temp->right);
+            
+            }
+        }
+    }
+   
+    
+}
+ Node * curr=NULL;
+bool  solve(Node * root,int target){
+    if(root==NULL)return false;
+    if(root->data==target){
+        curr=root;
+        return true;
+    }
+   if( solve(root->left,target)||solve(root->right,target))return true ;
+   
+    return 0;
+    
+}
 
     vector <int> KDistanceNodes(Node* root, int target , int k)
     {
-        map<Node*,Node*>m;
-        solve(root,m);
-        vector<int>v;
-        Node * start;
-        bool p=fun(root,target, start);
+        // return the sorted vector of all nodes at k dist
+        map<Node *,Node *>m;
+        Node * p=root;
+          vector<int>ans;
+        parent(root,m);
+        // for(auto it:m){
+        //     cout<<it.first->data<<" "<<it.second->data<<endl;
+        // }
+      
+        bool x=solve(p,target);
+        // if(curr!=NULL)
+        // cout<<curr->data<<endl;
+        if(curr==NULL)return ans;
+         map<Node *,int>vis;
         queue<Node*>q;
-        q=chamak(start,q,k,m);
+        q.push(curr);
+        vis[curr]=1;
+        int count=0;
         while(!q.empty()){
-            v.push_back(q.front()->data);
+            int size=q.size();
+            if( count==k)break;
+            count++;
+            while(size--){
+                Node * temp=q.front();
+                q.pop();
+              if(m[temp] && vis[m[temp]]==0){
+                  q.push(m[temp]);
+                  vis[m[temp]]=1;
+              }
+              if(temp->left && vis[temp->left]==0){
+                  q.push(temp->left);
+                  vis[temp->left]=1;
+              }
+                if(temp->right && vis[temp->right]==0){
+                  q.push(temp->right);
+                  vis[temp->right]=1;
+              }
+              
+            }
+        }
+      
+        while(!q.empty()){
+            ans.push_back(q.front()->data);
             q.pop();
         }
-        sort(v.begin(),v.end());
-        return v;
-        
+        sort(ans.begin(),ans.end());
+        return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 
