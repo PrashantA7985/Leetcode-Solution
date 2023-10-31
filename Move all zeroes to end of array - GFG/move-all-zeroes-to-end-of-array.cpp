@@ -6,31 +6,18 @@ using namespace std;
 //User function template for C++
 class Solution{
 public:
-	void pushZerosToEnd(int a[], int n) {
+	void pushZerosToEnd(int arr[], int n) {
 	    // code here
-	
-	  int i=0;
-	  int j=0;
-	  while(i<n && j<n){
-	      while(i<n && a[i]!=0)i++;
-	       while(j<n && a[j]==0)j++;
-	      if(i>=j ){
-	          j=i;
-	          while(j<n && a[j]==0)j++;
-	             if(j>n-1)break;
-	          swap(a[i],a[j]);
-	          
-	     
-	      }
-	      else{
-	          if(j>n-1)break;
-	          swap(a[i],a[j]);
-	          
-	      }
-	      i++;
-	      
-	  }
-	 
+	    int i=0;
+	    int j=0;
+	    while(i<n && j<n){
+	        while(i<n && arr[i]!=0){
+	            i++;
+	        }
+	        while(j<n && arr[j]==0)j++;
+	       if(i<n && j<n  && i<j) swap(arr[i],arr[j]);
+	       j++;
+	    }
 	}
 };
 
