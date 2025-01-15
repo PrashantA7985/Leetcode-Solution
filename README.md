@@ -41,4 +41,12 @@
 |  |
 | ------- |
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
+## Greedy
+|  |
+| ------- |
+| [2509-minimize-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2509-minimize-xor) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2509-minimize-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2509-minimize-xor) |
 <!---LeetCode Topics End-->
