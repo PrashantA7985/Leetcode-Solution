@@ -7,6 +7,7 @@
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2792-neighboring-bitwise-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2792-neighboring-bitwise-xor) |
 ## Hash Table
 |  |
 | ------- |
@@ -51,6 +52,7 @@
 | ------- |
 | [2509-minimize-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2792-neighboring-bitwise-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2792-neighboring-bitwise-xor) |
 ## Brainteaser
 |  |
 | ------- |
