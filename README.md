@@ -13,6 +13,7 @@
 | [2533-bitwise-xor-of-all-pairings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2685-first-completely-painted-row-or-column](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2685-first-completely-painted-row-or-column) |
 | [2792-neighboring-bitwise-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2792-neighboring-bitwise-xor) |
+| [3429-special-array-i](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3429-special-array-i) |
 ## Hash Table
 |  |
 | ------- |
