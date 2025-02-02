@@ -8,6 +8,7 @@
 | [1396-count-servers-that-communicate](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2145-grid-game](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2145-grid-game) |
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
