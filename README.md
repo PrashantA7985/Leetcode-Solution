@@ -41,6 +41,7 @@
 |  |
 | ------- |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
@@ -51,6 +52,7 @@
 ## Simulation
 |  |
 | ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
 ## Greedy
 |  |
@@ -110,4 +112,8 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0039-combination-sum) |
+## Stack
+|  |
+| ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2021-remove-all-occurrences-of-a-substring) |
 <!---LeetCode Topics End-->
