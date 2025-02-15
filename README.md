@@ -112,8 +112,13 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0039-combination-sum) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Stack
 |  |
 | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2021-remove-all-occurrences-of-a-substring) |
+## Math
+|  |
+| ------- |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2802-find-the-punishment-number-of-an-integer) |
 <!---LeetCode Topics End-->
