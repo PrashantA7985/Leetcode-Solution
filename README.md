@@ -40,6 +40,7 @@
 ## String
 |  |
 | ------- |
+| [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
@@ -112,6 +113,7 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0039-combination-sum) |
+| [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Stack
 |  |
