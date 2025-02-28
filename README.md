@@ -48,6 +48,7 @@
 |  |
 | ------- |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1170-shortest-common-supersequence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1170-shortest-common-supersequence) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -156,6 +157,7 @@
 |  |
 | ------- |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1170-shortest-common-supersequence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 <!---LeetCode Topics End-->
