@@ -28,6 +28,7 @@
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2685-first-completely-painted-row-or-column](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2685-first-completely-painted-row-or-column) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -55,6 +56,7 @@
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## String Matching
 |  |
 | ------- |
@@ -161,4 +163,8 @@
 | [1170-shortest-common-supersequence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+## Sliding Window
+|  |
+| ------- |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 <!---LeetCode Topics End-->
