@@ -19,6 +19,7 @@
 | [2533-bitwise-xor-of-all-pairings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2665-minimum-time-to-repair-cars](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2665-minimum-time-to-repair-cars) |
 | [2685-first-completely-painted-row-or-column](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2685-first-completely-painted-row-or-column) |
 | [2690-house-robber-iv](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2690-house-robber-iv) |
 | [2792-neighboring-bitwise-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2792-neighboring-bitwise-xor) |
@@ -46,6 +47,7 @@
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2665-minimum-time-to-repair-cars](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2690-house-robber-iv) |
 ## Sorting
 |  |
