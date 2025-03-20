@@ -23,6 +23,7 @@
 | [2685-first-completely-painted-row-or-column](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2685-first-completely-painted-row-or-column) |
 | [2690-house-robber-iv](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2690-house-robber-iv) |
 | [2792-neighboring-bitwise-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2792-neighboring-bitwise-xor) |
+| [3348-minimum-cost-walk-in-weighted-graph](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3429-special-array-i) |
 ## Hash Table
@@ -84,6 +85,7 @@
 | [2509-minimize-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2792-neighboring-bitwise-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2792-neighboring-bitwise-xor) |
+| [3348-minimum-cost-walk-in-weighted-graph](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Brainteaser
 |  |
 | ------- |
@@ -99,6 +101,7 @@
 | ------- |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2564-most-profitable-path-in-a-tree) |
+| [3348-minimum-cost-walk-in-weighted-graph](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -129,6 +132,7 @@
 |  |
 | ------- |
 | [1396-count-servers-that-communicate](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
+| [3348-minimum-cost-walk-in-weighted-graph](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Counting
 |  |
 | ------- |
