@@ -26,6 +26,7 @@
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3429-special-array-i) |
+| [3430-count-days-without-meetings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3430-count-days-without-meetings) |
 ## Hash Table
 |  |
 | ------- |
@@ -54,6 +55,7 @@
 |  |
 | ------- |
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
+| [3430-count-days-without-meetings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3430-count-days-without-meetings) |
 ## String
 |  |
 | ------- |
