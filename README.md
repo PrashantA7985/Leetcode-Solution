@@ -19,6 +19,7 @@
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2665-minimum-time-to-repair-cars) |
 | [2685-first-completely-painted-row-or-column](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2685-first-completely-painted-row-or-column) |
@@ -46,6 +47,7 @@
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2414-move-pieces-to-obtain-a-string) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Binary Search
 |  |
@@ -60,6 +62,7 @@
 | ------- |
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3430-count-days-without-meetings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3430-count-days-without-meetings) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
@@ -105,6 +108,7 @@
 | [1396-count-servers-that-communicate](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2793-count-the-number-of-complete-components) |
 ## Graph
 |  |
@@ -118,6 +122,7 @@
 |  |
 | ------- |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Matrix
 |  |
 | ------- |
@@ -125,6 +130,7 @@
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2145-grid-game](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2145-grid-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2685-first-completely-painted-row-or-column](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2685-first-completely-painted-row-or-column) |
 ## Shortest Path
 |  |
@@ -147,6 +153,7 @@
 |  |
 | ------- |
 | [1396-count-servers-that-communicate](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Counting
