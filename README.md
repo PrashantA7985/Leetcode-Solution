@@ -42,6 +42,7 @@
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2685-first-completely-painted-row-or-column](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2685-first-completely-painted-row-or-column) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3548-find-the-count-of-good-integers](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Two Pointers
 |  |
@@ -183,6 +184,7 @@
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2649-count-total-number-of-colored-cells](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2649-count-total-number-of-colored-cells) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [3548-find-the-count-of-good-integers](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3548-find-the-count-of-good-integers) |
 ## Tree
 |  |
 | ------- |
@@ -216,4 +218,12 @@
 |  |
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+## Combinatorics
+|  |
+| ------- |
+| [3548-find-the-count-of-good-integers](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3548-find-the-count-of-good-integers) |
+## Enumeration
+|  |
+| ------- |
+| [3548-find-the-count-of-good-integers](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3548-find-the-count-of-good-integers) |
 <!---LeetCode Topics End-->
