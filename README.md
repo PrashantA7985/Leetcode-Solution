@@ -18,6 +18,7 @@
 | [2145-grid-game](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2145-grid-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
+| [2249-count-the-hidden-sequences](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2249-count-the-hidden-sequences) |
 | [2262-solving-questions-with-brainpower](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2262-solving-questions-with-brainpower) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -147,6 +148,7 @@
 | ------- |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2145-grid-game](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2145-grid-game) |
+| [2249-count-the-hidden-sequences](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2249-count-the-hidden-sequences) |
 ## Depth-First Search
 |  |
 | ------- |
