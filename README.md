@@ -48,6 +48,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0868-push-dominoes](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0868-push-dominoes) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2232-adding-spaces-to-a-string) |
@@ -75,6 +76,7 @@
 ## String
 |  |
 | ------- |
+| [0868-push-dominoes](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0868-push-dominoes) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1170-shortest-common-supersequence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1170-shortest-common-supersequence) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -206,6 +208,7 @@
 |  |
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0368-largest-divisible-subset) |
+| [0868-push-dominoes](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
