@@ -8,6 +8,7 @@
 | [0368-largest-divisible-subset](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0368-largest-divisible-subset) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1396-count-servers-that-communicate](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1396-count-servers-that-communicate) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -98,6 +99,7 @@
 ## Greedy
 |  |
 | ------- |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2509-minimize-xor](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2509-minimize-xor) |
 ## Bit Manipulation
 |  |
