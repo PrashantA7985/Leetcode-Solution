@@ -35,6 +35,7 @@
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3429-special-array-i) |
 | [3430-count-days-without-meetings](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3430-count-days-without-meetings) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Hash Table
 |  |
@@ -128,11 +129,13 @@
 | [2564-most-profitable-path-in-a-tree](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -142,11 +145,13 @@
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2685-first-completely-painted-row-or-column](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2685-first-completely-painted-row-or-column) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Shortest Path
 |  |
 | ------- |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/PrashantA7985/Leetcode-Solution/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Prefix Sum
 |  |
 | ------- |
